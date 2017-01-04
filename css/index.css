@@ -1,0 +1,256 @@
+
+.wrapper>.item{
+	padding:10.5% 0 8%;
+	border-bottom:1px solid #eee;
+}
+.banner{
+	position: relative;
+}
+.banner .text{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 60px;
+    width: 74%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.banner .text .cn{
+	font-size: 26px;
+}
+
+.banner .swiper-button-prev,
+.banner .swiper-button-next{
+	top: 50%;
+	 transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+   
+}
+
+.title{
+	margin-bottom:.4rem;
+	text-align: center;
+	font-size:.56rem;
+}
+.sub-title{
+	margin-bottom:.85rem;
+	font-size: .3rem;
+	text-align: center;
+	font-weight: normal;
+}
+.swiper-button-prev,.swiper-button-next{
+	top: 2.7rem;
+	width:.56rem;
+	height: .67rem;
+	margin-top: 0;
+	text-align: center;
+	line-height: .6rem;
+	background-color: rgba(0,0,0,.5);
+    background-image: none;
+}
+.swiper-button-prev img,.swiper-button-next img{
+	vertical-align: middle;
+	max-height: 100%;
+}
+
+.swiper-button-prev{
+   left: 0;
+}
+.swiper-button-next{
+   right: 0;
+}
+.swiper-caption{
+	margin-top:.6rem;
+	text-align: center;
+	line-height: .6rem;
+}
+
+ .text-message{
+	padding:9.2% 0;
+	color:white;
+	display: block;
+	
+}
+.activity .text-message{
+	background-color: #f2f2f2;
+	color:#666;
+}
+.activity .text-message:active{
+	background-color: #dcb86e;
+}
+.text-message>*{
+	max-width: 1112px;
+	width: 89.6%;
+	margin: 0 auto;
+}
+.message-title{
+	padding-bottom:.35rem;
+	margin-bottom:.5rem;
+	border-bottom:1px dotted #bfbfbf;
+	font-size:.45rem;
+	font-weight: normal;
+}
+.message-description{
+	font-size:.36rem;
+	line-height: .65rem;
+}
+
+.activity .text-message:active .message-title{
+	border-bottom:1px dotted white;
+}
+.btn{
+	display: block;
+	width:53%;
+	height:1.1rem;
+	margin: 9.2% auto 0;
+	font-size:.39rem;
+	line-height: 1.1rem;
+	text-align: center;
+	border:1px solid #399bde;
+	background-color: #399bde;
+	color:white;
+}
+.btn:hover{
+	
+	color:white;
+}
+.btn:active{
+	border:1px solid #a0a0a0;
+	background-color:transparent;
+	color:#399bde;
+}
+
+/*时时新闻*/
+.news{
+	padding:8% 0 31.3%
+}
+.date{
+	padding-top:8.3%;
+}
+.date>*{
+	max-width: 1112px;
+	width: 89.6%;
+	margin: 0 auto;
+}
+.news-item{
+	border-bottom:1px solid #e7e7e7;
+	
+}
+.news-item:active{
+	background-color:#e9eaeb;
+	
+}
+.date .day{
+	font-weight:normal ;
+	font-size:.79rem;
+}
+.date .year{
+	font-weight:normal ;
+	font-size:.4rem;
+	text-indent:.94rem;
+}
+.news .text-message{
+	color:#666;
+	
+	
+}
+.news .text-message:hover{
+	color:#666;
+	
+}
+.news .message-title{
+	margin-bottom:0;
+	border:none;
+	color:#666;
+}
+.news .message-description{
+	color:#626262;
+}
+
+/*联系我们*/
+.contact{
+	padding:12.8% 0 7.9%;
+	background-color: #f3f3f3;
+}
+
+
+.contact .company{
+	margin-bottom:.5rem;
+	font-size:.45rem;
+	color:#399bde;
+	
+}
+
+.message-list li{
+	margin-bottom:.39rem;
+	color:#989898;
+}
+
+
+#share .xinlang,
+#share .friends{
+	display: inline-block;
+	width:1.67rem;
+	height:1.67rem;
+	border-radius:50%;
+	background-color: #484848;
+	background-repeat: no-repeat;
+	background-size:38%  36.3%;
+	background-position:center center;
+}
+#share .xinlang{
+	background-image: url(../img/sina.png);
+}
+#share .friends{
+	margin-left:.39rem;
+	background-image: url(../img/friends.png);
+	background-size: 42% 42.3%;
+}
+
+
+@media only screen and (max-width:992px ) {
+	.banner .text{
+		font-size: 40px;
+	}
+	
+	.banner .text .cn{
+		font-size: 20px;
+	}
+	
+}
+@media only screen and (max-width:768px ) {
+	.banner .text,
+	.title{
+		font-size: 28px;
+	}
+	
+	.banner .text .cn,
+	.sub-title{
+		font-size: 18px;
+	}
+	.swiper-caption{
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width:480px ) {
+	.banner .text{
+		font-size: 20px;
+	}
+	.title{
+		font-size:22px;
+	}
+	.message-title{
+		font-size: 18px;
+	}
+	.message-description,
+	.swiper-caption{
+		font-size: 15px;
+		line-height: 1.5;
+		
+	}
+	
+}

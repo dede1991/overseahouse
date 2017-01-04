@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<title>海外房产</title>
+		<link rel="stylesheet" type="text/css" href="lib/swiper/swiper-3.4.0.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/study_detail.css"/>
+		
+	</head>
+     <script>
+       (function (window,ddocument) {
+       	    function setRootFontSize(){
+       	    	    var windowWidth=window.innerWidth || document.documentElement.clientWidth;
+		            var rootFontSize=windowWidth/(1242/100)>100?100:windowWidth/(1242/100);
+		            var html= document.getElementsByTagName('html')[0];
+		            html.style.fontSize=rootFontSize+'px';
+       	    }
+       	    
+       	   window.onresize=function () {
+       	   	   setRootFontSize();
+       	   }
+       	   setRootFontSize();
+       })(window,document);
+         
+     </script>
+	<body>
+		<div class="wrapper" id="wrapper">
+			<!--侧边导航-->
+			<div id="side-nav"class="side-nav">
+				<ul class="nav">
+					<li >
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="house_list.html">海外房产</a>
+					</li>
+					<li>
+						<a href="business.html">海外专享</a>
+						
+					</li>
+					<li class="active">
+						<a href="study_list.html">海外留学</a>
+						
+					</li>
+					<li>
+						<a href="activity.html">海外活动</a>
+						
+					</li>
+					<li>
+						<a href="finances_list.html">每月理财</a>
+						
+					</li>
+					<li>
+						<a href="news_list.html">新闻动态</a>
+						
+					</li>
+					<li class="more">
+						<a href="#">
+							市场合作
+							<div class="cross">
+							    <span class="line-v"></span>	
+							    <span class="line-h"></span>	
+							</div>
+						</a>
+						
+						<ul class="more-list">
+							<li><a href="recruit.html">人才招募</a></li>
+							<li><a href="#">项目合作</a></li>
+						</ul>
+					</li>
+					<li >
+						<a href="about.html">联系我们</a>
+						
+					</li>
+				</ul>
+			</div>
+		   <!--    头部-->
+		    <div class="header">
+		    	 <div class="nav-toggle fl" id="toggle-btn" data-target="#side-nav">
+		    	 	  <span class="icon-bar"></span>
+		    	 	  <span class="icon-bar"></span>
+		    	 </div>
+		    	 <div class="logo text-center">
+		    	 	<img src="img/home-logo.png"/>
+		    	 </div>
+		    </div>
+		   			<!--页面标题-->
+			<h1 class="headding">
+				Overseas study information
+			</h1>
+			<h5 class="sub-headding">
+				Green Coast 海外留学
+			</h5>
+			
+			<div class="item">
+				<div class="container">
+					<p class="text">
+						定制旅游可以根据旅游者的需求，以旅游者为主导进行旅游行动流程的设计。通俗的
+						说就是根据自己的喜好和需求定制行程的旅行方式。这种模式在业界的特点就是弱化
+						了或者去除了中间商能够给您带来最个性化的服务。其已经引入中国，处于发展阶段。
+					</p>
+					<div class="img text-center">
+						<img src="img/study-detail.jpg"/>
+					</div>
+					<p class="text">
+						投资理财，投资理财是指投资者通过合理安排资金，运用诸如储蓄、银行理财产品、
+						债券、基金、股票、期货、商品现货、外汇、房地产、保险、黄金、P2P、文化及艺
+						术品等投资理财工具对个人、家庭和企事业单位资产进行管理和分配，达到保值增值
+						的目的，从而加速资产的增长。投资理财一词，最早见于20世纪90年代初期的报端。
+						随着我国股票债券市场的扩容，商业银行、零售业务的日趋丰富和市民总体收入的逐
+						年上升，“理财”概念逐渐走俏。
+					</p>
+				</div>
+			</div>	
+			
+			       
+			<!--footer-->
+			<div class="footer inverse">
+				<p class="text-center">Shanghai Green Coast Private Entry - Exit Service Co., Ltd</p>
+			</div>
+		</div><!--.wrapper-->
+		
+		<script src="js/side_nav.js"></script>
+	
+		<script>        
+		  window.onload=function () {
+	       
+		/*    初始化侧边导航*/
+		    new SideNav({
+		    	btn:'toggle-btn',
+		    	nav:'side-nav',
+		    	wrapper:'wrapper'
+		    });
+		
+		  }
+		 
+  </script>
+	</body>
+   
+</html>
+

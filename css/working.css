@@ -1,0 +1,108 @@
+.content{
+	padding-top:1.6rem;
+	padding-bottom:1.92rem;
+}
+.txt{
+	text-align: center;
+	padding-bottom:1.21rem;
+}
+.txt h3{
+	font-size:.48rem;
+	font-weight: bold;
+	color: #535353;
+	margin-bottom:.5rem;
+}
+.txt p{
+	font-size: .3rem;
+	color: #535353;
+}
+.workingnr{
+	width:90%;
+	margin: 0 auto;
+}
+.working{
+	padding-bottom:1rem;
+}
+.working h5{
+	font-size: .33rem;
+	color: #535353;
+	font-weight: bold;
+	margin-bottom: .6rem;
+}
+.working p{
+	font-size: .3rem;
+	color: #535353;
+	line-height:.62rem;
+	margin-left:.11rem;
+}
+.working .p1{
+	margin-bottom:.5rem;
+}
+table tr th{
+	font-size:.3rem;
+	font-weight: normal;
+	color: #535353;
+}
+table tr td{
+	font-size: .28rem;
+	color: #535353;
+}
+table tr {
+	line-height:.7rem;
+}
+table tr td:nth-of-type(3) {
+	font-size: .26rem;
+	width:49.28%;
+	padding-left:.3rem;
+	padding-right:.2rem;
+	line-height:.6rem;
+	text-align: justify;
+}
+.workingimg{
+	padding-top:1.2rem;
+	padding-bottom:1.2rem;
+}
+.footer{
+	background: #312f34;
+}
+
+@media only screen and (max-width:640px ) {
+	.working h5{
+		font-size: 16px;
+	}
+	.working p{
+		font-size:15px;
+		line-height: 1.5;
+	}
+	.working table tr th{
+		font-size:15px;
+	}
+	.working table tr td{
+		font-size: 14px;
+	}
+	.working table tr td:nth-of-type(3){
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width:768px ) {
+	.txt h3{
+		font-size:22px;
+	}
+	.txt p{
+		font-size:18px;
+	}
+}
+@media only screen and (max-width:480px ) {
+	.txt h3{
+		font-size:18px;
+	}
+	.txt p{
+		font-size:16px;
+	}
+}
+
+
+
+
+

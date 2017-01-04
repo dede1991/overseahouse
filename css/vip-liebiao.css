@@ -1,0 +1,88 @@
+.txt{
+	text-align: center;
+}
+.txt h3{
+	font-size:.48rem;
+	margin-bottom:.4rem;
+	margin-top: 1.54rem;
+	font-weight: bold;
+	color: #535353;
+}
+.txt p{
+	font-size:.3rem;
+	color: #535353;
+	margin-bottom: 1.13rem;
+}
+.neirong{
+	background: #f8f8f8;
+	padding-bottom: .9rem;
+	margin-bottom: 1.13rem;
+}
+.neirongtxt{
+	color: #535353;
+	width:93%;
+	margin: 0 auto;
+	margin-top: .9rem;
+}
+/*.neirongtxt p{
+	font-size:.36rem;
+}*/
+.neirongtxt h4{
+	width:4.7%;
+	height:0.03rem;
+	background: #535353;
+	margin-top:.5rem;
+	margin-bottom: .5rem;
+}
+.neirongtxt p:first-of-type{
+	margin-bottom: .4rem;
+	font-size: .36rem;
+}
+.neirongtxt p:nth-of-type(2){
+	font-size: .36rem;
+}
+/*.neirongtxt p:last-of-type{
+	font-size:.3rem;
+	line-height: .6rem;
+}*/
+.footer{
+	background: #312f34;
+}
+
+
+
+@media only screen and (max-width:768px ) {
+	.txt h3{
+		font-size:28px;
+	}
+	.txt p{
+		font-size:18px;
+	}
+	
+}
+@media only screen and (max-width:480px ) {
+	.txt h3{
+		font-size:22px;
+	}
+	.txt p{
+		font-size:16px;
+	}
+}
+@media only screen and (max-width:640px ) {
+	.neirongtxt p:first-of-type,
+	.neirongtxt p:nth-of-type(2){
+		font-size:18px;
+	}
+	.neirongtxt p:last-of-type{
+		font-size:16px;
+		line-height: 1.5;
+	}
+}
+@media only screen and (max-width:480px ) {
+	
+	.neirongtxt p:last-of-type{
+		font-size:15px;
+		line-height: 1.5;
+	}
+}
+

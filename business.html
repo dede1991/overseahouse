@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="lib/swiper/swiper-3.4.0.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/vip-liebiao.css"/>
+</head>
+<script>
+       (function (window,ddocument) {
+       	    function setRootFontSize(){
+       	    	    var windowWidth=window.innerWidth || document.documentElement.clientWidth;
+		            var rootFontSize=windowWidth/(1242/100)>100?100:windowWidth/(1242/100);
+		            var html= document.getElementsByTagName('html')[0];
+		            html.style.fontSize=rootFontSize+'px';
+       	    }
+       	    
+       	   window.onresize=function () {
+       	   	   setRootFontSize();
+       	   }
+       	   setRootFontSize();
+       })(window,document)
+         
+</script>
+<body>
+	<div class="wrapper" id="wrapper">
+		<!--侧边导航-->
+		<div id="side-nav"class="side-nav">
+				<ul class="nav">
+					<li >
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="house_list.html">海外房产</a>
+					</li>
+					<li class="active">
+						<a href="business.html">海外专享</a>
+						
+					</li>
+					<li>
+						<a href="study_list.html">海外留学</a>
+						
+					</li>
+					<li>
+						<a href="activity.html">海外活动</a>
+						
+					</li>
+					<li>
+						<a href="finances_list.html">每月理财</a>
+						
+					</li>
+					<li>
+						<a href="news_list.html">新闻动态</a>
+						
+					</li>
+					<li class="more">
+						<a href="#">
+							市场合作
+							<div class="cross">
+							    <span class="line-v"></span>	
+							    <span class="line-h"></span>	
+							</div>
+						</a>
+						
+						<ul class="more-list">
+							<li><a href="recruit.html">人才招募</a></li>
+							<li><a href="#">项目合作</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="about.html">联系我们</a>
+						
+					</li>
+				</ul>
+			</div>
+		<!--    头部-->
+		<div class="header">
+		    	 <div class="nav-toggle fl" id="toggle-btn" data-target="#side-nav">
+		    	 	  <span class="icon-bar"></span>
+		    	 	  <span class="icon-bar"></span>
+		    	 </div>
+		    	 <div class="logo text-center">
+		    	 	<img src="img/home-logo.png"/>
+		    	 </div>
+		    </div>
+		<!--广告-->
+		<div class="banner  text-center">
+			<div class="img">
+				<img src="img/vip-banner.png"/>
+			</div>
+		</div>
+		<!--折叠面板-->
+		<div class="collapse-panel" id="collapseNav">
+			<a class="collapse-toggle">
+				海外专享
+				<div class="arrow">
+				  	<span class="arrow-top"></span>
+					<span class="arrow-bottom"></span>
+				</div>
+			</a>
+			<ul class="collapse-menu">
+				<li><a href="#">全球新闻</a></li>
+				<li class="active"><a href="#">当地新闻</a></li>
+			</ul>
+		</div>
+		<!--内容-->
+		<div class="content">
+			<div class="txt">
+				<h3>OVERSEAS EXCLUSIVE BUSINESS</h3>
+				<p>Green Coast 海外专享</p>
+			</div>
+			<div class="neirong">
+				<a href="#">
+					<div class="text-center">
+						<img src="img/vip-content1.png" alt="" />
+					</div>
+					<div class="neirongtxt">
+						<p>PERSONALIZED LEASING</p>
+						<p>个性化租赁管理</p>
+						<h4></h4>
+						<p>投资理财是指投资者通过合理安排资金，运用诸如储蓄、银行理财产品、债券、基金、股票、期货、商品现货、外汇、房地产、保险、黄金、P2P...</p>
+					</div>
+				</a>
+			</div>
+			<div class="neirong">
+				<a href="#">
+					<div class="text-center">
+						<img src="img/vip-content1.png" alt="" />
+					</div>
+					<div class="neirongtxt">
+						<p>ONE-STOP LUXURY</p>
+						<p>一站式豪宅</p>
+						<h4></h4>
+						<p>投资理财是指投资者通过合理安排资金，运用诸如储蓄、银行理财产品、债券、基金、股票、期货、商品现货、外汇、房地产、保险、黄金、P2P...</p>
+					</div>
+				</a>
+			</div>
+			<div class="neirong">
+				<a href="#">
+					<div class="text-center">
+						<img src="img/vip-content1.png" alt="" />
+					</div>
+					<div class="neirongtxt">
+						<p>CUSTOMIZED TRAVEL</p>
+						<p>定制化旅游</p>
+						<h4></h4>
+						<p>投资理财是指投资者通过合理安排资金，运用诸如储蓄、银行理财产品、债券、基金、股票、期货、商品现货、外汇、房地产、保险、黄金、P2P...</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="fenye">
+			<a class="one">1</a>
+			<a href="">2</a>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<p class="text-center">Shanghai Green Coast Private Entry - Exit Service Co., Ltd</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="lib/swiper/swiper-3.4.0.min.js"></script>
+		<script src="js/side_nav.js"></script>
+		<script src="js/collapse_panel.js"></script>
+		<script>        
+		  window.onload=function () {
+	       
+		/*    初始化侧边导航*/
+		    new SideNav({
+		    	btn:'toggle-btn',
+		    	nav:'side-nav',
+		    	wrapper:'wrapper'
+		    });
+		 /*  初始化 折叠面板*/
+		    new CollapsePanel({
+		    	collapsePanel:'collapseNav'
+		    });
+		  }
+		 
+  </script>
+	
+	
+	
+</body>
+</html>

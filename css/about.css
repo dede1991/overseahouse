@@ -1,0 +1,49 @@
+body{
+	color: #535353;
+}
+.wrapper>.item{
+	padding:7.2% 0;
+	border-bottom:1px solid #eee;
+}
+
+
+.sub-headding{
+	margin-bottom:0;
+}
+.item-headding{
+	margin-bottom:4.2%;
+	font-size:.33rem;
+	font-weight:normal ;
+}
+
+.description-list{
+	margin-top:2.6%;
+	line-height: .5rem;
+	list-style-position: inside;
+}
+.list-title{
+	font-size:.5rem ;
+	font-weight:bold;
+}
+.list-title:last-of-type{
+	margin-top:4.2% ;
+}
+.item.statement{
+	padding: 4.7% 0 16.1%;
+	color:#747474;
+	font-size:.3rem;
+	font-weight: bold;
+}
+
+
+@media only screen and (max-width:640px ) {
+	.item-headding{
+		font-size: 17px;
+	}
+	.item-description,
+	.description-list,
+	.item.statement{
+		font-size: 15px;
+		line-height: 1.5;
+	}
+}

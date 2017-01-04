@@ -1,0 +1,16 @@
+.text{
+	line-height: .62rem;
+}
+.img{
+	padding:1.21rem .43rem;
+}
+.footer{
+	margin-top: 2rem;
+}
+@media only screen and (max-width:640px ) {
+	.text{
+		font-size:15px;
+		line-height: 1.5;
+	}
+	
+}

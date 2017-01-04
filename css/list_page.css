@@ -1,0 +1,54 @@
+/*------------------ 列表页面的.media---------------------*/
+.media{
+	color:#535353;
+	background-color: #f3f3f3;
+}
+.media-bottom{
+	padding:.88rem 0 .9rem;
+}
+.media-title-en{
+	margin-bottom:.2rem;
+	font-family: arial;
+	font-size:.36rem;
+	font-weight:normal;
+}
+.media-title-cn{
+	margin-bottom:.35rem;
+	font-size:.36rem;
+	font-weight:normal;
+}
+.media-line{
+	width:.59rem;
+	height:.03rem;
+	margin-bottom:.45rem;
+	background-color:#535353;
+}
+.media-description{
+	line-height: .56rem;
+}
+
+/*------------------ 列表页面的.media---------------------*/
+.item{
+	margin-bottom:8.3%;
+}
+
+.footer{
+	margin-top:15.9%;
+}
+@media only screen and (max-width:640px ) {
+	.media-title-en,
+	.media-title-cn{
+		font-size:18px;
+	}
+	.media-description{
+		font-size:16px;
+		line-height: 1.5;
+	}
+}
+@media only screen and (max-width:480px ) {
+	
+	.media-description{
+		font-size:15px;
+		line-height: 1.5;
+	}
+}
