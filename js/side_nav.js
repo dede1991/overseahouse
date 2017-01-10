@@ -69,7 +69,7 @@
     
     function hasClass(dom,classItem){
     	//\bshow\b|(\s+)show(\s+)
-    	reg=new RegExp('\\b'+classItem+'\\b','g');
+    	var reg=new RegExp('\\b'+classItem+'\\b','g');
     	 return reg.test(dom.className);
     	
     }
@@ -80,7 +80,7 @@
     	return dom.className;
     }
     function removeClass(dom,classItem){
-    	     reg=new RegExp('\\b'+classItem+'\\b|(\s+)+'+classItem+'(\s+)','g');
+    	     var reg=new RegExp('\\b'+classItem+'\\b|(\s+)+'+classItem+'(\s+)','g');
     	      dom.className=trim(dom.className.replace(reg,' '));
     	      
     }
